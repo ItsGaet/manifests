@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: mysql:8
+          image: r.deso.tech/dockerhub/library/mysql:8
           env:
             - name: MYSQL_USER
               value: mysql
