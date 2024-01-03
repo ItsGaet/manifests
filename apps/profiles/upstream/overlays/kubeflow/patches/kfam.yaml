@@ -20,7 +20,7 @@ spec:
         envFrom:
           - configMapRef:
               name: config
-        image: docker.io/kubeflownotebookswg/kfam
+        image: r.deso.tech/dockerhub/kubeflownotebookswg/kfam
         imagePullPolicy: IfNotPresent
         name: kfam
         livenessProbe:

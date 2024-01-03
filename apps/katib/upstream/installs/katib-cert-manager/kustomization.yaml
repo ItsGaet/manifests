@@ -20,14 +20,14 @@ resources:
   # Cert-manager certificate for webhooks
   - certificate.yaml
 images:
-  - name: docker.io/kubeflowkatib/katib-controller
-    newName: docker.io/kubeflowkatib/katib-controller
+  - name: r.deso.tech/dockerhub/kubeflowkatib/katib-controller
+    newName: r.deso.tech/dockerhub/kubeflowkatib/katib-controller
     newTag: v0.16.0-rc.1
-  - name: docker.io/kubeflowkatib/katib-db-manager
-    newName: docker.io/kubeflowkatib/katib-db-manager
+  - name: r.deso.tech/dockerhub/kubeflowkatib/katib-db-manager
+    newName: r.deso.tech/dockerhub/kubeflowkatib/katib-db-manager
     newTag: v0.16.0-rc.1
-  - name: docker.io/kubeflowkatib/katib-ui
-    newName: docker.io/kubeflowkatib/katib-ui
+  - name: r.deso.tech/dockerhub/kubeflowkatib/katib-ui
+    newName: r.deso.tech/dockerhub/kubeflowkatib/katib-ui
     newTag: v0.16.0-rc.1
 
 patchesStrategicMerge:

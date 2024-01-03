@@ -11,6 +11,6 @@ configMapGenerator:
 patchesStrategicMerge:
 - patches/add_controller_config.yaml
 images:
-- name: docker.io/kubeflownotebookswg/tensorboard-controller
-  newName: docker.io/kubeflownotebookswg/tensorboard-controller
+- name: r.deso.tech/dockerhub/kubeflownotebookswg/tensorboard-controller
+  newName: r.deso.tech/dockerhub/kubeflownotebookswg/tensorboard-controller
   newTag: v1.8.0-rc.0

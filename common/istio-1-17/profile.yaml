@@ -16,7 +16,7 @@ spec:
       enabled: false
     pilot:
       enabled: true
-  hub: docker.io/istio
+  hub: r.deso.tech/dockerhub/istio
   meshConfig:
     defaultConfig:
       proxyMetadata: {}

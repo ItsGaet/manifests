@@ -28,7 +28,7 @@ spec:
         envFrom:
           - configMapRef:
               name: config
-        image: docker.io/kubeflownotebookswg/profile-controller
+        image: r.deso.tech/dockerhub/kubeflownotebookswg/profile-controller
         imagePullPolicy: IfNotPresent
         name: manager
         livenessProbe:
