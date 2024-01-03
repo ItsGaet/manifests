@@ -20557,7 +20557,7 @@ spec:
                   fieldPath: metadata.namespace
             - name: SECRET_NAME
               value: kserve-webhook-server-cert
-          image: kserve/kserve-controller:v0.11.0
+          image: r.deso.tech/dockerhub/kserve/kserve-controller:v0.11.0
           imagePullPolicy: Always
           name: manager
           ports:
